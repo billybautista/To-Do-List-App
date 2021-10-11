@@ -11,7 +11,6 @@ router.post("/signup", (req, res) => {
     username: req.body.username,
     password: bcrypt.hashSync(req.body.password, 10),
   });
-
   newUser.save((err) => {
     if (err) {
       return res.status(400).json({

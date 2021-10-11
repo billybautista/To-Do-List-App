@@ -9,17 +9,17 @@ import { signUp } from "../services/user";
  */
 
 function Signup({ renderLogin }) {
-  const [userName, setUserName] = useState("");
+  const [username, setUserName] = useState("");
   const [password, setPassword] = useState("");
   const [confirmPassword, setConfirmPassword] = useState("");
   const [disabled, setDisabled] = useState(false);
 
   const onSubmit = () => {
-    signUp({ userName, password });
+    signUp({ username, password });
   };
 
   useEffect(() => {
-    if ((password === confirmPassword) & (userName !== "")) setDisabled(false);
+    if ((password === confirmPassword) & (username !== "")) setDisabled(false);
     else setDisabled(true);
   }, [password, confirmPassword]);
 

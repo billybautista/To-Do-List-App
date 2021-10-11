@@ -9,12 +9,12 @@ import { logIn } from "../services/user";
  */
 
 function Login({ renderSignup }) {
-  const [userName, setUserName] = useState("");
+  const [username, setUserName] = useState("");
   const [password, setPassword] = useState("");
   const [disabled, setDisabled] = useState(false);
 
   const onSubmit = () => {
-    logIn({ userName, password }).then((res) => {
+    logIn({ username, password }).then((res) => {
       if (res.status === 200) {
         const token = res.data.token;
         localStorage.setItem("token", token);
@@ -24,12 +24,12 @@ function Login({ renderSignup }) {
   };
 
   useEffect(() => {
-    if (userName && password != "") {
+    if (username && password != "") {
       setDisabled(false);
     } else {
       setDisabled(true);
     }
-  }, [userName, password]);
+  }, [username, password]);
 
   return (
     <div style={styled.container}>

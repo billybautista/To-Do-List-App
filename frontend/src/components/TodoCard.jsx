@@ -17,7 +17,7 @@ function TodoCard({
     <Card
       id={key}
       style={{
-        width: 260,
+        width: 350,
         borderRadius: 10,
         marginBottom: 30,
         alignItems: "center",
@@ -28,7 +28,7 @@ function TodoCard({
         <img
           variant="top"
           src={img}
-          style={{ height: 150, width: 150, borderRadius: 10 }}
+          style={{ height: 150, borderRadius: 10 }}
         />
       ) : null}
       <Card.Body>
@@ -41,7 +41,7 @@ function TodoCard({
         >
           <Card.Title>{title}</Card.Title>
 
-          <Card.Text style={{ width: 200 }}>{description}</Card.Text>
+          <Card.Text style={{ width: 300 }}>{description}</Card.Text>
           <div style={{ height: 0 }} />
         </div>
         <div
