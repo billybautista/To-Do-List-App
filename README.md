@@ -57,4 +57,4 @@ DB = mongodb://{LOCALHOST}/{DB}
 Para correr la base de datos
 se tiene que correr el siguiente comando en la cmd
 ```bash
-mongod```
+mongod
