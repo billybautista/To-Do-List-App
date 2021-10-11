@@ -23,6 +23,7 @@ MongoDb
 
 ### Paquetes del Frontend: 
 axios
+bootstrap
 react-bootstrap
 react-router-dom
 
