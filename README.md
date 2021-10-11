@@ -9,7 +9,7 @@
 **IMPORTANTE:** Para ejecutar la app, se debe corer los siguientes comandos
 
 ### Lenguajes utilizados: 
-Javascritp
+Javascript
 
 ### Framework utilizados: 
 Frontend 
@@ -21,12 +21,12 @@ Express
 ### Base de datos: 
 MongoDb
 
-### Paquetes de NPM Frontend: 
+### Paquetes del Frontend: 
 axios
 react-bootstrap
 react-router-dom
 
-### Paquetes de NPM Backend: 
+### Paquetes del Backend: 
 bcrypt
 cors
 dotenv
