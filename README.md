@@ -36,6 +36,7 @@ mongoose
 morgan
 nodemon
 
+### Instrucciones para correr el frontend: 
 ```bash
   cd frontend
   npm install
