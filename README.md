@@ -42,3 +42,9 @@ nodemon
   npm install
   npm start
 ```
+### Instrucciones para correr el backend: 
+```bash
+  cd backend
+  npm install
+  npm run dev
+```
