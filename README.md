@@ -7,7 +7,7 @@
 
 >
 <div>
-    <img  height = "400" src='https://user-images.githubusercontent.com/71783387/136816831-4fd2111b-9362-4283-99bb-4aacb82baf05.png'>
+    <img  height = "600" src='https://user-images.githubusercontent.com/71783387/136816831-4fd2111b-9362-4283-99bb-4aacb82baf05.png'>
     </img>
 </div>
             
