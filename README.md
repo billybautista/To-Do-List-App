@@ -48,3 +48,6 @@ nodemon
   npm install
   npm run dev
 ```
+En el .env se tiene que definir la url de la base de datos
+Ejemplo
+DB = mongodb://{LOCALHOST}/{DB}
