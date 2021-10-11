@@ -9,8 +9,12 @@
 <div>
     <img  height = "600" src='https://user-images.githubusercontent.com/71783387/136816831-4fd2111b-9362-4283-99bb-4aacb82baf05.png'>
     </img>
+ <img  height = "600" src='https://user-images.githubusercontent.com/71783387/136817194-6477bba9-c233-4e49-aa4b-93d55f29d131.png'>
+    </img>
 </div>
-            
+      
+
+      
 ### Instructions: 
 **IMPORTANTE:** Para ejecutar la app, se debe corer los siguientes comandos
 
